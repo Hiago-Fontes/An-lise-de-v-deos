@@ -1,9 +1,9 @@
-### Este script automatiza o processo de análise de vídeos do YouTube. Ele realiza as seguintes etapas:
+### This script automates the process of analyzing YouTube videos. It performs the following steps:
 
-1- Baixa o áudio de um vídeo do YouTube utilizando o yt-dlp.
+Downloads the audio from a YouTube video using yt-dlp.
 
-2- Transcreve o áudio localmente usando o modelo Whisper da OpenAI, gerando o texto falado do vídeo.
+Transcribes the audio locally using OpenAI's Whisper model, generating the spoken text from the video.
 
-3- Resume automaticamente a transcrição utilizando o modelo BART (facebook/bart-large-cnn) da biblioteca Hugging Face Transformers.
+Automatically summarizes the transcription using the BART model (facebook/bart-large-cnn) from the Hugging Face Transformers library.
 
-4- Exibe no terminal tanto a transcrição completa quanto o resumo do conteúdo do vídeo.
+Displays both the full transcription and the summary of the video content in the terminal.
