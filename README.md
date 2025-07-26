@@ -1,4 +1,4 @@
-###Este script automatiza o processo de análise de vídeos do YouTube. Ele realiza as seguintes etapas:
+### Este script automatiza o processo de análise de vídeos do YouTube. Ele realiza as seguintes etapas:
 
 1- Baixa o áudio de um vídeo do YouTube utilizando o yt-dlp.
 
